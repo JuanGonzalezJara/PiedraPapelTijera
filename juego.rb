@@ -2,20 +2,20 @@
 
 #  1- Inicio del proceso
 #  2- Se llama a juego.rb indicando eleccion (ex: ruby juego.rb piedra)
-#  3- se genera eleccion random en opciones(piedra, papel o tijera)
-#  3- eleccion es valida?
+#  3- Se genera eleccion random en pcChoise(piedra, papel o tijera)
+#  3- Eleccion de usuario es no valida? (palabra incorrecta)
 #  NO SI→ * Mensaje: Debe ser una opcion valida
 #  ↓      3.1- Fin Proceso
 #
-#  4- eleccion es igual a eleccion del computador?
+#  4- Eleccion de usuario es igual a eleccion del computador?
 #  NO SI→ * Mensaje: Empate!
 #  ↓      4.1- Fin Proceso
 #
-#  5- eleccion cumple condicion para ganar?
-#  NO SI→ * Mensaje: Ganador!
+#  5- Eleccion de usuario cumple condicion para perder?
+#  NO SI→ * Mensaje: Perdedor!
 #  ↓      5.1- Fin Proceso
 #
-#  6- *Mensaje: Perdiste!
+#  6- *Mensaje: Ganaste!
 #  7- Fin Proceso
 
 #Definicion de Variables
